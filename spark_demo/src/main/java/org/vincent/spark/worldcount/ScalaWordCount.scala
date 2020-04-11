@@ -1,3 +1,5 @@
+package org.vincent.spark.worldcount
+
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
@@ -7,7 +9,7 @@ object ScalaWordCount {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf()
     conf.setMaster("local[*]")
-    conf.setAppName("MyWordCount")
+    conf.setAppName("ScalaWordCount")
     val sc = new SparkContext(conf)
 
     val rdd1 = sc.textFile(args(0))
