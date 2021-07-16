@@ -16,6 +16,7 @@
         <module>kafka_demo</module>
         <module>spark_demo</module>
         <module>storm_demo</module>
+        <module>jike_bigdata</module>
     </modules>
 
 
